@@ -31,6 +31,6 @@ app.get('/blogs', (req, res) => res.send({
 
 // app.get('/contact', (req, res) => res.send('Contact Page Route'));
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 80;
 
 app.listen(port, () => console.log(`Server running on ${port}, http://localhost:${port}`));
